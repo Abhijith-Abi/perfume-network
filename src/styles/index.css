@@ -1,0 +1,5 @@
+/* Global stylesheet entry point.
+ * Import order matters: base reset first, then the design system + components.
+ */
+@import './base.css';
+@import './app.css';

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161f1a"/>
+      <stop offset="1" stop-color="#080c0a"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.5" cy="0.32" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a6e50"/>
+      <stop offset="1" stop-color="#16281e"/>
+    </linearGradient>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <rect width="600" height="600" fill="url(#spot)"/>
+  <!-- reflection floor -->
+  <ellipse cx="300" cy="520" rx="150" ry="26" fill="#000000" opacity="0.28"/>
+
+  <!-- cap -->
+  <rect x="262" y="120" width="76" height="60" rx="8" fill="#c9b078"/>
+  <rect x="262" y="120" width="76" height="60" rx="8" fill="url(#glassSheen)"/>
+  <!-- neck -->
+  <rect x="276" y="178" width="48" height="33" fill="#16281e" opacity="0.9"/>
+
+  <!-- bottle body -->
+  <rect x="225" y="205" width="150" height="285" rx="20"
+        fill="url(#liquid)" stroke="#2a4234" stroke-width="3"/>
+  <!-- glass sheen -->
+  <rect x="225" y="205" width="150" height="285" rx="20" fill="url(#glassSheen)"/>
+  <!-- highlight strip -->
+  <rect x="241" y="225" width="14" height="225" rx="7" fill="#ffffff" opacity="0.18"/>
+
+  <!-- label -->
+  <rect x="230" y="305.5" width="140" height="84" rx="6"
+        fill="#0c0b09" opacity="0.55"/>
+  <rect x="230" y="305.5" width="140" height="84" rx="6"
+        fill="none" stroke="#a8d4bc" stroke-opacity="0.6" stroke-width="1.5"/>
+  <text x="300" y="341.5" text-anchor="middle"
+        font-family="Georgia, 'Cormorant Garamond', serif" font-size="26" font-style="italic"
+        fill="#a8d4bc">Gypsy</text>
+  <text x="300" y="371.5" text-anchor="middle"
+        font-family="'DM Sans', Arial, sans-serif" font-size="10" letter-spacing="3"
+        fill="#a8d4bc" opacity="0.8">EAU DE PARFUM</text>
+</svg>

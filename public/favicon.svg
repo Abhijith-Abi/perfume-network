@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="pn-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e4cc7a"/>
+      <stop offset="1" stop-color="#8a7434"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0c0b09"/>
+  <!-- perfume bottle -->
+  <g fill="none" stroke="url(#pn-gold)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- cap -->
+    <rect x="27" y="10" width="10" height="7" rx="1.5" fill="url(#pn-gold)" stroke="none"/>
+    <!-- neck -->
+    <path d="M29 17h6v4h-6z" fill="url(#pn-gold)" stroke="none"/>
+    <!-- body -->
+    <path d="M24 22c-3 2-5 5-5 10v14a6 6 0 0 0 6 6h14a6 6 0 0 0 6-6V32c0-5-2-8-5-10z"/>
+  </g>
+  <!-- monogram -->
+  <text x="32" y="43" text-anchor="middle" font-family="Georgia, 'Cormorant Garamond', serif" font-size="15" font-style="italic" fill="url(#pn-gold)">PN</text>
+</svg>
